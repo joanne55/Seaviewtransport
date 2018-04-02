@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-
-import Pic1 from './Images/download1.jpg';
-import Pic2 from './Images/download2.jpg';
-import Pic3 from './Images/download3.jpg';
-import Pic4 from './Images/download4.jpg';
+import Pic1 from './Images/DSCF3982.JPG';
+import Pic2 from './Images/DSCF3968.JPG';
+import Pic3 from './Images/DSCF3989.JPG';
+import Pic4 from './Images/IMG_2113.JPG';
 
 class Navbar extends Component {
   constructor(props) {
