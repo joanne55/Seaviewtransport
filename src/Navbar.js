@@ -15,8 +15,11 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-sm bg-light">
-          <h2>Seaview Transport</h2>
-          <ul className="navbar-nav nav-tabs navbar-right justify-content-end">
+        <div class="container-fluid">
+        <div class="navbar-header">
+          <h2 className="nav-text">Seaview Transport</h2>
+        </div>
+          <ul className="navbar-nav nav-tabs navbar-right">
             <li className="nav-item">
               <a className="nav-link" href="#">About us</a>
             </li>
@@ -27,6 +30,7 @@ class Navbar extends Component {
               <a className="nav-link" href="#">Contact us</a>
             </li>
           </ul>
+        </div>
         </nav>
 
         <div className="container-fluid">
@@ -38,16 +42,16 @@ class Navbar extends Component {
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={Pic1} />
+                <img className="img-responsive" src={Pic1} />
               </div>
               <div className="carousel-item">
-                <img src={Pic2} />
+                <img className="img-responsive" src={Pic2} />
               </div>
               <div className="carousel-item">
-                <img src={Pic3} />
+                <img className="img-responsive" src={Pic3} />
               </div>
               <div className="carousel-item">
-                <img src={Pic4} />
+                <img className="img-responsive" src={Pic4} />
               </div>
             </div>
             <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
