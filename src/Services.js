@@ -18,7 +18,7 @@ class Services extends Component {
                 <h3>Waste types</h3>
                 <p>We specialise in disposing many different types of waste, mainly industrial and construction types. Below is a list of, but not limited to, different waste types that we can take care of.</p>
 
-                
+                <div className="container-fluid" id="Carousel2">
                     <div className="carousel slide" id="myCarousel" data-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
@@ -58,8 +58,28 @@ class Services extends Component {
                         <span className="glyphicon glyphicon-chevron-right"></span>
                         <span className="sr-only">Next</span>
                     </a>
-                
+                </div>
 
+                <h2>Bin types</h2>
+                <div className="row">
+                    <div id="test" className="col-sm-4"><img className="img-fluid" src={Img2} /></div>
+                    <div className="col-sm-2"></div>
+                    <div id="test2" className="col-sm-3 justify-content-width">
+                    <h3 className="col-sm-3">OTC
+                        <p>(16ft x 8ft x 4ft)</p>
+                        </h3>
+                    </div>
+                    <div className="col-sm-3"></div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-4"><img className="img-fluid" src={Img2} /></div>
+                    <div className="col-sm-2"></div>
+                    <div className="col-sm-3">
+                        <h3>Cradle bin</h3>
+                        <p>(10ft x 5ft x 5ft)</p>
+                    </div>
+                    <div className="col-sm-3"></div>
+                </div>
             </div>
         )
     }
