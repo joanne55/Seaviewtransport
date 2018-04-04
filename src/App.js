@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './aboutUs.css'
 import Carousel from './Carousel';
 import Navbar from './Navbar';
 import AboutUs from './aboutUs';

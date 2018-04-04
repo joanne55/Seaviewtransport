@@ -1,0 +1,36 @@
+.about{
+    font:roboto;
+}
+.about-title h1{
+    font-weight:100;
+    font-size: 2rem;
+}
+.about-txt {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+#about_logo{
+    height: 150px!important;
+}
+.about-row {
+    width: 100%;
+    overflow: hidden;
+}
+.about-wrap {
+    height: 400px;
+}
+.feature-card{
+    max-width: 900px;
+    margin: auto;
+}
+.feature-card .card{
+    border: none;
+}
+.feature-card .card img{
+    width: 100px;
+    margin: auto;
+}
+.get-quotes{
+    max-width: 800px;
+    margin: auto;
+}
