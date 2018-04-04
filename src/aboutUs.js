@@ -18,7 +18,7 @@ class AboutUs extends Component {
                     </div>
                     <div className="row">
                         <div className="col-sm p-5">
-                            <img src={ImgAbout} height="200" />
+                            <img class="img-fluid" src={ImgAbout} height="200" />
                         </div>
                         <div className="col-sm p-5">
                             <p>
