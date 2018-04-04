@@ -3,6 +3,7 @@ import './App.css';
 import Carousel from './Carousel';
 import Navbar from './Navbar';
 import AboutUs from './aboutUs';
+import Services from './Services';
 
 class App extends Component {
     constructor(props) {
@@ -15,6 +16,7 @@ class App extends Component {
                 <Navbar />
                 <Carousel />
                 <AboutUs />
+                <Services />
             </div>
         )
     }
