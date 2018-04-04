@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ImgAbout from './Images/about.JPG'
+import ImgAbout from './Images/SeaviewLogo.png'
 import ImgAvailable from './Images/available.png'
 import ImgFlexible from './Images/flexible.png'
 import ImgReliable from './Images/reliable.png'
@@ -8,25 +8,27 @@ class AboutUs extends Component {
     render() {
         return (
             <section className="about-us">
-                <div className="container">
-                    <div className="about-title text-center">
-                        <h1>
-                            About Us
-                        </h1>
-                        <div className="title-sep">
-                        </div>
-                    </div>
+                <div className="about-wrap container">
                     <div className="row">
                         <div className="col-sm p-5">
                             <img src={ImgAbout} height="200" />
                         </div>
-                        <div className="col-sm p-5">
-                            <p>
-                                Seaview Transport started in 1993, handling the separation and recycling of waste 
-                                (e.g. waste, plastic, stones, papers, steel and scrap metals).
-                                With over 20 years of experience, you can trust our reliable and experienced team 
-                                with a fleet of trucks to resolve your waste management needs efficiently.
-                            </p>
+                        <div className="col-sm">
+                            <div className="about-title p-3">
+                                <h1>
+                                    Seaview Transport
+                                </h1>
+                                <div className="title-sep">
+                                </div>
+                            </div>
+                            <div className="about-txt">
+                                <p>
+                                    Seaview Transport started in 1993, handling the separation and recycling of waste 
+                                    (e.g. waste, plastic, stones, papers, steel and scrap metals).
+                                    With over 20 years of experience, you can trust our reliable and experienced team 
+                                    with a fleet of trucks to resolve your waste management needs efficiently.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
