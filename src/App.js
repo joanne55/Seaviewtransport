@@ -5,8 +5,6 @@ import './Components/contact.css'
 import Carousel from './Carousel';
 import Navbar from './Navbar';
 import AboutUs from './Components/aboutUs';
-import Contact from './Components/contact';
-    
 import Services from './Services';
 import Footer from './Footer';
 
