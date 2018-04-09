@@ -2,6 +2,15 @@
   background-color: black;
 }
 
+#carousel {
+  background-color: beige;
+}
+
+#carousel3 {
+  background-color: palevioletred;
+  height: 500px;
+}
+
 #test {
   background-color: blue;
 }

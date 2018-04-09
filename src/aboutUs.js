@@ -7,7 +7,7 @@ import ImgReliable from './Images/reliable.png'
 class AboutUs extends Component {
     render() {
         return (
-            <section className="about-us bg-primary">
+            <div className="about-us bg-primary">
                 <div className="about-wrap p-0 container text-white">
                     <div className="row about-row pt-md-5">
                         <div className="col-md text-center p-3 m-auto">
@@ -73,7 +73,7 @@ class AboutUs extends Component {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         )
     }
 }
