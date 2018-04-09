@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Components/App.css';
 import './Components/aboutUs.css'
 import './Components/contact.css'
-import Carousel from './Carousel';
-import Navbar from './Navbar';
+import Carousel from './Components/Carousel';
+import Navbar from './Components/Navbar';
 import AboutUs from './Components/aboutUs';
-import Services from './Services';
-import Footer from './Footer';
+import Services from './Components/Services';
+import Footer from './Components/Footer';
 
 class App extends Component {
     constructor(props) {

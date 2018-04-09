@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Logo from './Images/logo.png';
+import Logo from '../Images/logo.png';
 
 class Navbar extends Component {
   constructor(props) {

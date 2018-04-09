@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const FormErrors = ({formErrors}) =>
+const FormErrors = ({formErrors}) =>
   <div className='formErrors'>
     {Object.keys(formErrors).map((fieldName, i) => {
       if(formErrors[fieldName].length > 0){
@@ -14,5 +14,4 @@ export const FormErrors = ({formErrors}) =>
     })}
   </div>
 
-
-
+export default FormErrors

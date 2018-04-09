@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FormErrors } from './FormErrors';
+import FormErrors from './FormErrors';
 import './App.css';
 
 class Footer extends Component {
