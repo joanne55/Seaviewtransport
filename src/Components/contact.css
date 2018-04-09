@@ -102,3 +102,45 @@ input:focus ~ .highlight {
 	from { background:#2196F3; }
   to 	{ width:0; background:transparent; }
 }
+.footer{
+  position: relative;
+}
+.footer-map{
+  position: absolute;
+  top: -300px;
+  height: 500px;
+  width: 100%;
+  background: #2196F3;
+  color:white;
+}
+.footer-box {
+  margin-top: 300px;
+}
+.footer-box{ 
+  background: white;
+  max-width: 800px;
+  margin:200px auto 50px;
+  box-shadow: #9e9e9e 5px 0 15px;
+ 
+}
+.contact-info {
+  background: #3F51B5;
+  color: white;
+}
+.contact-form {
+  padding: 80px 60px 50px;
+}
+.contact-form-main{
+  background: white;
+}
+.contact-info-txt {
+  height: 500px;
+  margin: auto;
+  padding-top: 120px;
+}
+.contact-info h3{
+  padding: 10px;
+}
+.contact-info-txt p{
+  padding: 10px; 
+}
