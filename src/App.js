@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import './aboutUs.css'
+import './Components/aboutUs.css'
+import './Components/contact.css'
 import Carousel from './Carousel';
 import Navbar from './Navbar';
-import AboutUs from './aboutUs';
+import AboutUs from './Components/aboutUs';
 import Services from './Services';
 import Footer from './Footer';
 
