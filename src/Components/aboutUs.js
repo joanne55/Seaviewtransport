@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import ImgAbout from './Images/SeaviewLogo.png'
-import ImgAvailable from './Images/available.png'
-import ImgFlexible from './Images/flexible.png'
-import ImgReliable from './Images/reliable.png'
+import ImgAbout from '../Images/SeaviewLogo.png'
+import ImgAvailable from '../Images/available.png'
+import ImgFlexible from '../Images/flexible.png'
+import ImgReliable from '../Images/reliable.png'
 
 class AboutUs extends Component {
     render() {
