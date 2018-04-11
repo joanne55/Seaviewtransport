@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FormErrors } from './FormErrors';
+import Map from '../Images/map.png';
 
 class Footer extends Component {
     constructor(props) {
@@ -57,20 +58,30 @@ class Footer extends Component {
             <section className="footer">
                 <div className="footer-map">
                     <div className="contact-title">
-                        <h1>Get in Touch</h1>
-                    </div>
-                    <div className="contact-tile-txt">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-7">
+                                    <h1>Get in Touch</h1>
+                                    <div className="contact-title-txt">
+                                        SeaviewTransport aims to solve your waste management problems efficiently
+                                    </div>
+                                </div>
+                                <div className="col-md-5">
+                                    <img id ="map" src={Map}/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="footer-box">
                     <div className="row">
                         <form className="col-md-7 contact-form-main">
                             <div className="contact-form">
-                                <div className="panel panel-default">
+                                <h4 className="pb-3">Got a question?</h4>
+                                <div className="panel panel-default text-white bg-danger rounded">
                                     <FormErrors formErrors={this.state.formErrors} />
                                 </div>
-                                <h4 className="pb-3">Got a question?</h4>
-                                <div className={`form-group ${this.errorClass(this.state.formErrors.name)}`}>
+                                <div className={`form-group pt-3 ${this.errorClass(this.state.formErrors.name)}`}>
                                     <label htmlFor="name">Name:</label>
                                     <input className={`form-control ${this.errorClass(this.state.formErrors.name)}`} type="text" value={this.state.name} onChange={(event) => this.handleUserInput(event)} id="name" name="name" required />
                                 </div>
@@ -95,6 +106,9 @@ class Footer extends Component {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="footer-bottom">
+                    Design and Develope by © Ezsofe 2018 Han Jiyao, Joanne
                 </div>
             </section>
         )
