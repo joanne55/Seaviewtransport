@@ -33,14 +33,14 @@ class AboutUs extends Component {
                     </div>
                 </div>
                 <div className="features">
-                    <div className="card-warp p-md-5 bg-white">
+                    <div className="card-wrap p-md-5 bg-white">
                         <div className="feature-card card-group text-center pt-5">
                             <div className="card">
                                 <img className="card-img-top" src={ImgFlexible} alt="flexible" />
                                 <div className="card-body">
                                     <h5 className="card-title">Flexible</h5>
                                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                    <p className="card-text"><small className="text-muted"></small></p>
                                 </div>
                             </div>
                             <div className="card">
@@ -48,7 +48,7 @@ class AboutUs extends Component {
                                 <div className="card-body">
                                     <h5 className="card-title">Reliable</h5>
                                     <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                    <p className="card-text"><small className="text-muted"></small></p>
                                 </div>
                             </div>
                             <div className="card">
@@ -56,7 +56,7 @@ class AboutUs extends Component {
                                 <div className="card-body">
                                     <h5 className="card-title">24 hr Available</h5>
                                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                    <p className="card-text"><small className="text-muted"></small></p>
                                 </div>
                             </div>
                         </div>
