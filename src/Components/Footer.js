@@ -56,7 +56,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <div className="row container-fluid">
+            <div className="row container-fluid" id="contact_us">
                 <div id="test" className="col-sm-4">
                     <h2>Contact Us</h2>
                     <p><span className="fa fa-envelope fa-fw"></span><span className="ml-sm-3">SVSHJL@singnet.com.sg</span></p>

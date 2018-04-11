@@ -16,10 +16,7 @@
 
 #test {
   background-color: blue;
-}
 
-#collapsibleNavbar {
-  background-color: red;
 }
 
 #test2 {
@@ -29,3 +26,14 @@
 #test3 {
   background-color: green;
 }
+
+#test4 {
+  background-color: palevioletred;
+}
+
+#test5 {
+  background-color:paleturquoise;
+}
+
+
+
