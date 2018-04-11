@@ -34,3 +34,6 @@
     max-width: 800px;
     margin: auto;
 }
+.card-wrap{
+    padding-bottom: 10px !important;
+}

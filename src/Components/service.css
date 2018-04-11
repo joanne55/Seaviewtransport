@@ -1,0 +1,107 @@
+.service-main-title {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+.service-title {
+    font-weight: 900;
+    font-size: 2rem;
+}
+.service-title-txt {
+    color: #757575;
+}
+.waste-box {
+    background: #2196F3;
+    padding-bottom: 80px;
+}
+.waste-title {
+    color: #fff;
+    margin: 60px 0 0;
+    padding: 80px 0 10px;
+}
+.waste-box p {
+    color: #e0e0e0;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.waste-type img {
+    height: 100%;
+}
+.waste-type-img {
+    width: 100%;
+    padding-top: 100%; 
+    position: relative; 
+    overflow: hidden;
+    margin:20px;
+    box-shadow: 5px 0 20px #fff;
+    transition: background-size 0.3s;
+}
+.waste-type-img.soil{
+    background-image: url('http://sesl.com.au/wp-content/uploads/Soil-Waste.-540x600.jpg');
+    background-size: 100%;
+}
+.waste-type-img.hardcore{
+    background-image: url('http://www.findaskip.co.uk/blog/wp-content/uploads/2015/08/findaskip-hardcore-bricks-skip-size.jpg');
+    background-size: 100%;
+}
+.waste-type-img.horticulture{
+    background-image: url('http://www.leegov.com/solidwaste/PublishingImages/residents/yardwaste/YardWaste.JPG');
+    background-size: 100%;
+}
+.waste-type-img.construction{
+    background-image: url('https://blog.capterra.com/wp-content/uploads/2015/05/bigstock-Construction-and-Demolition-De-70360507-720x522.jpg');
+    background-size: 100%;
+}
+.waste-type-img {
+    position: relative;
+    margin: 0;
+}
+.waste-type-img:hover {
+    background-size: 110%;
+    transition: background-size 0.8s;
+}
+.waste-type-txt p{
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    width: 100%;
+}
+.waste-type-txt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.waste-type-txt p:hover {
+    transition: padding 0.3s;
+    background-color:rgb(0,0,0,0.9);
+    padding:20px;
+}
+.bin-type {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 150px;
+}
+.bin-title {
+    padding-top:80px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.bin-title-txt {
+    color:#757575;
+}
+.bin-type-box {
+    padding: 100px;
+}
+.bin-type-txt{
+    font-weight: 900;
+}
+.bin-type-txt-desc{
+    color:#666666;
+    font-size: 0.9rem;
+}

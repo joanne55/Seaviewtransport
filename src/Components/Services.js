@@ -1,76 +1,90 @@
 import React, { Component } from 'react';
 import './App.css';
-import Img1 from '../Images/ImgServices1.png';
-import Img2 from '../Images/ImgServices2.png';
-import Img3 from '../Images/ImgServices3.png';
-import Img4 from '../Images/ImgServices4.png';
-import Pic1 from '../Images/download1.jpg';
-import Pic2 from '../Images/download2.jpg';
+import soil from '../Images/SoilWaste.jpg';
+import hardcore from '../Images/HardcoreWaste.jpg';
+import horticulture from '../Images/HorticultureWaste.JPG';
+import construction from '../Images/ConstructionWaste.jpg';
+import otc from '../Images/otc.jpg';
+import cradle from '../Images/cradle.jpg';
 
 class Services extends Component {
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         return (
-            <div className="m-0 p-0" id="services">
-                <h1 className="text-center">Services</h1>
-                <p>Seaview Transport firmly believes in being an integrated waste service provider known for its safe, reliable and customer facing operations. With skilled and knowledgeable hands on deck coupled with customer oriented attitude, you can be assured of our commitment to your needs.</p>
-
-                <h3>Waste types</h3>
-                <p>We specialise in disposing many different types of waste, mainly industrial and construction types. Below is a list of, but not limited to, different waste types that we can take care of.</p>
-
-                <div className="container-fluid m-0 p-0" id="carousel_wastes">
-                    <div className="carousel slide" id="myCarousel" data-ride="carousel">               
-                        <div className="carousel-inner" id="carousel_wastes2">
-                            <div className="carousel-item active">
-                                <img className="img-fluid ml-4 mr-4" src={Img1} />
-                                <img className="img-fluid ml-4 mr-4" src={Img2} />
+            <section className="m-0 p-0" id="services">
+                <div className="service-main-title">
+                    <h1 className="service-title">Services</h1>
+                    <p className="service-title-txt text-left">
+                        Seaview Transport firmly believes in being an integrated waste service provider known for its safe, 
+                        reliable and customer facing operations. With skilled and knowledgeable hands on deck coupled with customer oriented attitude,
+                        you can be assured of our commitment to your needs.
+                    </p>
+                </div>
+                <div className="waste-box">
+                    <h2 className="waste-title">
+                        Waste Type
+                    </h2>
+                    <p>We specialise in disposing many different types of waste.</p>
+                    <div className="waste-type container">
+                        <div className="row">
+                            <div className="col-md-3">
+                                <div className="waste-type-img soil">
+                                    
+                                </div>
+                                <div className="waste-type-txt"><p>Soil</p></div>
                             </div>
-                            <div className="carousel-item">
-                                <img className="img-fluid ml-4 mr-4" src={Img3} />
-                                <img className="img-fluid ml-4 mr-4" src={Img4} />
+                            <div className="col-md-3">
+                                <div className="waste-type-img hardcore">
+                                    
+                                </div>
+                                <div className="waste-type-txt"><p>Hardcore</p></div>
+                            </div>
+                            <div className="col-md-3">
+                                <div className="waste-type-img construction">
+                                    
+                                </div>
+                                <div className="waste-type-txt"><p>Construction</p></div>
+                            </div>
+                            <div className="col-md-3">
+                                <div className="waste-type-img horticulture">
+                                    
+                                </div>
+                                <div className="waste-type-txt"><p>Horticulture</p></div>
                             </div>
                         </div>
-
-                        <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Previous</span>
-                        </a>
-                        <a className="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Next</span>
-                        </a>
                     </div>
                 </div>
-
-                <h2>Bin types</h2>
-
-                <div className="row container-fluid">
-                    <div className="col-sm-5 m-0 p-0">
-                        <img className="img-fluid" src={Pic1} />
+                <div className="bin-type">
+                    <h2 className="bin-title">Bin types</h2>
+                    <div className="bin-title-txt text-center">We use most cost-effective and green way and frequency to dispose your waste materials</div>
+                    <div className="row">
+                        <div className="col-md-6 m-0 pt-md-4 text-center" >
+                            <img src={otc} height="400"/>
+                        </div>
+                        <div className="col-md-6 bin-type-box">
+                            <h3 className="bin-type-txt">OTC</h3>
+                            <p>(16ft x 8ft x 4ft)</p>
+                            <p className="bin-type-txt-desc">Open-top container (OTC) can be used to contain most waste - horticulture, 
+                                bulky items, construction and demolition materials, earth, sand, plastic and mixed refuse materials. 
+                                Widely used in most manufacturing, construction, renovation and commercial projects.</p>
+                        </div>
                     </div>
-                    <div className="col-sm-1"></div>
-                    <div className="col-sm-3">
-                        <h3>OTC</h3>
-                        <p>(16ft x 8ft x 4ft)</p>
+                    <div className="row">
+                        <div className="col-md-6 bin-type-box">
+                            <h3 className="bin-type-txt">Cradle bin</h3>
+                            <p>(10ft x 5ft x 5ft)</p>
+                            <p className="bin-type-txt-desc">Suitable for collecting various waste such as office and food waste. 
+                                Widely used in schools, office buildings, shopping centres, condominiums, 
+                                landed properties and light industrial estates. All mobile garbage bins are equipped with a cover, 
+                                keeping the surrounding environment clean. 
+                            </p>
+                        </div>
+                        <div className="col-md-6 m-0 pt-md-5 pr-md-5 text-center">
+                            <img src={cradle} height="400" />
+                        </div>
+                        
                     </div>
-                    <div className="col-sm-3"></div>
                 </div>
-
-                <div className="row container-fluid">
-                    <div className="col-sm-5 m-0 p-0">
-                        <img className="img-fluid" src={Pic2} />
-                    </div>
-                    <div className="col-sm-1"></div>
-                    <div className="col-sm-3">
-                        <h3>Cradle bin</h3>
-                        <p>(10ft x 5ft x 5ft)</p>
-                    </div>
-                    <div className="col-sm-3"></div>
-                </div>
-            </div>
+            </section>
         )
     }
 }
