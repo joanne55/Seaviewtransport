@@ -14,7 +14,7 @@ class Services extends Component {
 
     render() {
         return (
-            <div className="m-0 p-0">
+            <div className="m-0 p-0" id="services">
                 <h1 className="text-center">Services</h1>
                 <p>Seaview Transport firmly believes in being an integrated waste service provider known for its safe, reliable and customer facing operations. With skilled and knowledgeable hands on deck coupled with customer oriented attitude, you can be assured of our commitment to your needs.</p>
 

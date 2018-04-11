@@ -54,6 +54,7 @@ class Footer extends Component {
 
     render() {
         return (
+<<<<<<< HEAD
             <section className="footer">
                 <div className="footer-map">
                     <div className="contact-title">
@@ -61,6 +62,14 @@ class Footer extends Component {
                     </div>
                     <div className="contact-tile-txt">
                     </div>
+=======
+            <div className="row container-fluid" id="contact_us">
+                <div id="test" className="col-sm-4">
+                    <h2>Contact Us</h2>
+                    <p><span className="fa fa-envelope fa-fw"></span><span className="ml-sm-3">SVSHJL@singnet.com.sg</span></p>
+                    <p><span className="fa fa-map-marker fa-fw"></span><span className="ml-sm-3">3 Defu Lane 6 Singapore 539366</span></p>
+                    <p><span className="fa fa-phone fa-fw"></span><span className="ml-sm-3">62857088 / 62850688</span></p>
+>>>>>>> Joanne
                 </div>
                 <div className="footer-box">
                     <div className="row">
