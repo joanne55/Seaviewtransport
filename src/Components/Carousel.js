@@ -21,6 +21,7 @@ class Carousel extends Component {
                         <li data-target="#myCarousel" data-slide-to="3"></li>
                     </ol>
                     
+                    <div className="container-fluid pl-5 pr-5" id="test3">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img className="img-fluid" src={Pic1} />
@@ -34,6 +35,7 @@ class Carousel extends Component {
                         <div className="carousel-item">
                             <img className="img-fluid" src={Pic4} />
                         </div>
+                    </div>
                     </div>
 
                     <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
