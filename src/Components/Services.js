@@ -78,7 +78,7 @@ class Services extends Component {
                                 keeping the surrounding environment clean. 
                             </p>
                         </div>
-                        <div className="col-md-6 m-0 pt-md-5 pr-md-5 text-center">
+                        <div className="col-md-6 m-0 pt-md-5 text-center">
                             <img src={cradle} height="400" />
                         </div>
                         

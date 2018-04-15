@@ -9,11 +9,11 @@ class AboutUs extends Component {
         return (
             <div className="about-us bg-primary" id="about_us">
                 <div className="about-wrap p-0 container text-white">
-                    <div className="row about-row pt-md-5">
+                    <div className="row about-row m-0 text-center pt-md-5">
                         <div className="col-md text-center p-3 m-auto">
                             <img id="about_logo" src={ImgAbout} />
                         </div>
-                        <div className="col-md pl-5 pr-5 m-auto">
+                        <div className="col-md pl-5 pr-5 text-md-left m-auto">
                             <div className="about-title pt-md-5">
                                 <h1>
                                     Seaview Transport
