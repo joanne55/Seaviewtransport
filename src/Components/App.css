@@ -1,5 +1,9 @@
+nav {
+  background-color: yellow;
+}
+
 #logo {
-  background-color: red;
+  background-color: #2196F3;
 }
 
 .carousel-inner > .carousel-item > img {
@@ -7,30 +11,27 @@
   max-height: 80%;
 }
 
-#carousel_wastes {
+#carousel_borders {
   background-color: black;
 }
 
-#carousel_wastes2 > .carousel-item > img {
-  width: 45%;
-  height: 200px;
+@media (max-width: 425px) {
+  #brand {
+    display: none;
+  }
+  #div_space {
+    display: none;
+  }
+  .carousel-inner > .carousel-item > img {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 
-#testpic {
-    background: url(../Images/DSCF3982.JPG);
-    background-repeat: no-repeat;
-    background-size: initial;
-    width: 100%;
-    height: 550px;
-}
+#collapsibleNavbar > ul > li > button > a {
+  color: white;
+} 
 
-#testpic2 {
-  background: url(../Images/DSCF3968.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 550px;
-}
 
 #test {
   background-color: blue;
@@ -43,6 +44,7 @@
 #test3 {
   background-color: black;
 }
+
 
 
 
