@@ -43,8 +43,10 @@ class Footer extends Component {
             emailValid: emailValid,
             nameValid: nameValid
         },
-            this.validateForm);
+            this.validateForm
+        );
     }
+    
     validateForm() {
         this.setState({ formValid: this.state.emailValid && this.state.nameValid });
     }
