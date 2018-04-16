@@ -95,6 +95,10 @@
 .bin-title-txt {
     color:#757575;
 }
+.bin-type img {
+    max-width: 100%;
+    height: auto;
+}
 .bin-type-box {
     padding: 100px;
 }
@@ -104,4 +108,16 @@
 .bin-type-txt-desc{
     color:#666666;
     font-size: 0.9rem;
+}
+@media only screen and (max-width: 768px) {
+    .bin-type-box, .service-title-txt, .waste-box p{
+        padding: 30px;
+    }
+    .waste-box p:hover{
+        padding: 50px;
+    }
+    .bin-type img {
+        max-width: 200px;
+        height: auto;
+    }
 }
