@@ -19,16 +19,16 @@ class Carousel extends Component {
 
                     <div className="carousel-inner" id="carousel_borders">
                         <div className="carousel-item active text-center">
-                            <img className="img-responsive" src={Pic1} />
+                            <img className="img-responsive" src={Pic1} alt="" />
                         </div>
                         <div className="carousel-item text-center">
-                            <img className="img-fluid img-responsive" src={Pic2} />
+                            <img className="img-fluid img-responsive" src={Pic2} alt="" />
                         </div>
                         <div className="carousel-item text-center">
-                            <img className="img-fluid" src={Pic3} />
+                            <img className="img-fluid" src={Pic3} alt="" />
                         </div>
                         <div className="carousel-item text-center">
-                            <img className="img-fluid" src={Pic4} />
+                            <img className="img-fluid" src={Pic4} alt="" />
                         </div>
                     </div>
 

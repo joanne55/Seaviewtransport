@@ -9,20 +9,16 @@ import AboutUs from './Components/aboutUs';
 import Services from './Components/Services';
 import Footer from './Components/Footer';
 
-class App extends Component {
-    constructor(props) {
-        super(props)
-    }
-    
+class App extends Component {  
     render() {
         return (
-            <div>
+            <div id="page-top">
                 <Navbar />
                 <Carousel />
                 <AboutUs />
                 <Services />
                 <Footer />
-            </div>
+        </div>
         )
     }
 }
