@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { FormErrors } from './FormErrors';
 import Map from '../Images/map.png';
 
+const Email = window.Email
+
 class Footer extends Component {
     constructor(props) {
         super(props)
@@ -11,8 +13,11 @@ class Footer extends Component {
             formErrors: { email: "", name: "" },
             emailValid: false,
             nameValid: false,
-            formValid: false
+            formValid: false,
         }
+        this.sendEmail = this.sendEmail.bind(this);
+        this.hashed_ticket_num = this.hashed_ticket_num.bind(this);
+
     }
 
     handleUserInput(event) {
@@ -46,13 +51,39 @@ class Footer extends Component {
             this.validateForm
         );
     }
-    
+
     validateForm() {
         this.setState({ formValid: this.state.emailValid && this.state.nameValid });
     }
 
     errorClass(error) {
         return (error.length === 0 ? '' : 'is-invalid');
+    }
+
+    hashed_ticket_num() {
+        this.str = this.state.email + Math.random().toString()
+        this.len = this.str.length;
+        this.hash = 0;
+        for (this.i = 1; this.i <= this.len; this.i++) {
+            this.char = this.str.charCodeAt((this.i - 1));
+            this.hash += this.char * Math.pow(31, (this.len - this.i));
+            this.hash = this.hash & this.hash; //javascript limitation to force to 32 bits
+        }
+        return this.hash;
+    }
+
+    sendEmail() {
+        Email.send(
+            this.state.email,
+            "jnjw55@gmail.com",
+            this.hashed_ticket_num(),                                //Error in syntax, unable to call function and return its value
+            document.getElementById("comment").value,        
+            "smtp.mailgun.org",
+            "postmaster@sandboxc589e5cbd93f4aaba4406ad7bd4d9fac.mailgun.org",
+            "f477f4032a856807786bbf4c20296f09-80bfc9ce-79c3f885",
+            { token: "121f7987-95ff-435c-ad95-943ca513f8cb" }   //SMTP credentials - security token
+        );
+        alert("sent");
     }
 
     render() {
@@ -69,7 +100,7 @@ class Footer extends Component {
                                     </div>
                                 </div>
                                 <div className="col-md-5">
-                                    <img id="map" src={Map} alt="" />
+                                    <img id ="map" src={Map}/>
                                 </div>
                             </div>
                         </div>
@@ -77,7 +108,7 @@ class Footer extends Component {
                 </div>
                 <div className="footer-box">
                     <div className="row">
-                        <form className="col-md-7 contact-form-main">
+                        <form className="col-md-7 contact-form-main" onSubmit={this.sendEmail}>
                             <div className="contact-form">
                                 <h4 className="pb-3">Got a question?</h4>
                                 <div className="panel panel-default text-white bg-danger rounded">
