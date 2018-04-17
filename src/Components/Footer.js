@@ -57,7 +57,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <section className="footer">
+            <section className="footer" id="contact">
                 <div className="footer-map">
                     <div className="contact-title">
                         <div className="container">
@@ -69,7 +69,7 @@ class Footer extends Component {
                                     </div>
                                 </div>
                                 <div className="col-md-5">
-                                    <img id ="map" src={Map}/>
+                                    <img id="map" src={Map} alt="" />
                                 </div>
                             </div>
                         </div>

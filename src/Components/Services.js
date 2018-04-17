@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import soil from '../Images/SoilWaste.jpg';
-import hardcore from '../Images/HardcoreWaste.jpg';
-import horticulture from '../Images/HorticultureWaste.JPG';
-import construction from '../Images/ConstructionWaste.jpg';
 import otc from '../Images/otc.jpg';
 import cradle from '../Images/cradle.jpg';
 
 class Services extends Component {
     render() {
         return (
-            <section className="m-0 p-0" id="services">
+            <section className="m-0 p-0" id="service">
                 <div className="service-main-title">
                     <h1 className="service-title">Services</h1>
                     <p className="service-title-txt text-left">
@@ -58,7 +54,7 @@ class Services extends Component {
                     <div className="bin-title-txt text-center">We use most cost-effective and green way and frequency to dispose your waste materials</div>
                     <div className="row">
                         <div className="col-md-6 m-0 pt-md-4 text-center" >
-                            <img src={otc} height="400"/>
+                            <img src={otc} height="400" alt="" />
                         </div>
                         <div className="col-md-6 bin-type-box">
                             <h3 className="bin-type-txt">OTC</h3>
@@ -79,7 +75,7 @@ class Services extends Component {
                             </p>
                         </div>
                         <div className="col-md-6 m-0 pt-md-5 text-center">
-                            <img src={cradle} height="400" />
+                            <img src={cradle} height="400" alt="" />
                         </div>
                         
                     </div>
