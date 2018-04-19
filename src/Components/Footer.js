@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { FormErrors } from './FormErrors';
 import Map from '../Images/map.png';
 
-const Email = window.Email
+const Email = window.Email;
 
 class Footer extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             email: "",
             name: "",
@@ -14,7 +14,7 @@ class Footer extends Component {
             emailValid: false,
             nameValid: false,
             formValid: false,
-        }
+        };
         this.sendEmail = this.sendEmail.bind(this);
         this.hashed_ticket_num = this.hashed_ticket_num.bind(this);
 
@@ -23,7 +23,7 @@ class Footer extends Component {
     handleUserInput(event) {
         const name = event.target.name;
         const value = event.target.value;
-        this.setState({ [name]: value }, () => { this.validateField(name, value) });
+        this.setState({ [name]: value }, () => { this.validateField(name, value); });
     }
 
     validateField(fieldName, value) {
@@ -61,7 +61,7 @@ class Footer extends Component {
     }
 
     hashed_ticket_num() {
-        this.str = this.state.email + Math.random().toString()
+        this.str = this.state.email + Math.random().toString();
         this.len = this.str.length;
         this.hash = 0;
         for (this.i = 1; this.i <= this.len; this.i++) {
@@ -94,13 +94,15 @@ class Footer extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-7">
-                                    <h1>Get in Touch</h1>
+                                    <h1 className="contact-main-title">
+                                        Get in Touch
+                                    </h1>
                                     <div className="contact-title-txt">
                                         SeaviewTransport aims to solve your waste management problems efficiently
                                     </div>
                                 </div>
                                 <div className="col-md-5">
-                                    <img id ="map" src={Map}/>
+                                    <img id ="map" src={Map} alt="" />
                                 </div>
                             </div>
                         </div>
