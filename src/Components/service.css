@@ -38,21 +38,19 @@
     transition: background-size 0.3s;
 }
 .waste-type-img.soil{
-    background-image: url("src/Images/SoilWaste.jpg");
-    /* background-image: url('http://sesl.com.au/wp-content/uploads/Soil-Waste.-540x600.jpg'); */
+    background-image: url("../Images/SoilWaste.jpg");
     background-size: 100%;
 }
 .waste-type-img.hardcore{
-    background-image: url("src/Images/HardcoreWaste.jpg");
-    /* background-image: url('http://www.findaskip.co.uk/blog/wp-content/uploads/2015/08/findaskip-hardcore-bricks-skip-size.jpg'); */
+    background-image: url("../Images/HardcoreWaste.jpg");
     background-size: 100%;
 }
 .waste-type-img.horticulture{
-    background-image: url('http://www.leegov.com/solidwaste/PublishingImages/residents/yardwaste/YardWaste.JPG');
+    background-image: url("../Images/ConstructionWaste.jpg");
     background-size: 100%;
 }
 .waste-type-img.construction{
-    background-image: url('https://blog.capterra.com/wp-content/uploads/2015/05/bigstock-Construction-and-Demolition-De-70360507-720x522.jpg');
+    background-image: url("../Images/SoilWaste.jpg");
     background-size: 100%;
 }
 .waste-type-img {
