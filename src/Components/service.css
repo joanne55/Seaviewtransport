@@ -38,11 +38,13 @@
     transition: background-size 0.3s;
 }
 .waste-type-img.soil{
-    background-image: url('http://sesl.com.au/wp-content/uploads/Soil-Waste.-540x600.jpg');
+    background-image: url("src\Images\SoilWaste.jpg");
+    /* background-image: url('http://sesl.com.au/wp-content/uploads/Soil-Waste.-540x600.jpg'); */
     background-size: 100%;
 }
 .waste-type-img.hardcore{
-    background-image: url('http://www.findaskip.co.uk/blog/wp-content/uploads/2015/08/findaskip-hardcore-bricks-skip-size.jpg');
+    background-image: url("src\Images\HardcoreWaste.jpg");
+    /* background-image: url('http://www.findaskip.co.uk/blog/wp-content/uploads/2015/08/findaskip-hardcore-bricks-skip-size.jpg'); */
     background-size: 100%;
 }
 .waste-type-img.horticulture{
