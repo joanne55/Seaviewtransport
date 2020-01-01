@@ -143,7 +143,7 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    Design and Develope by © Ezsofe 2018 Han Jiyao, Joanne
+                    Design and Developed by © Ezsofe 2018 Han Jiyao, Joanne Ng 
                 </div>
             </section>
         )
