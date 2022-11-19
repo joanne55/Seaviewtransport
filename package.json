@@ -14,7 +14,7 @@
     "normalize.css": "^8.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^5.0.1",
     "startbootstrap-scrolling-nav": "^4.2.1",
     "tslint": "^5.20.1",
     "typescript": "^2.9.2"
